@@ -1,0 +1,12 @@
+How to Run
+docker compose up --build
+
+Services
+- Frontend: http://localhost:3000
+- Backend: http://localhost:5000
+
+Architecture
+Frontend → Backend → Database
+
+Tech Stack
+React, Node.js, PostgreSQL, Docker
