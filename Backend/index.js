@@ -4,7 +4,7 @@ const { Client } = require("pg");
 const app = express();
 const PORT = 5000;
 
-// Database configuration from environment variables
+
 const dbClient = new Client({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
